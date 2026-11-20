@@ -152,12 +152,13 @@ def main():
                 if play_again == "Y" or "N":
                     if play_again == "N":  
                         break
+            print(f"Exiting to menu. Your balance is ${balance}!")
         elif game_choice == "3":
             print("Exiting the program. Have a nice day!")
             break
         else:
             print("Incorrect choice")
             continue
-        print(f"Exiting to menu. Your balance is ${balance}!")
+        
 if __name__ == "__main__":
     main()
